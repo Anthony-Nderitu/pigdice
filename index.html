@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js" type="text/javascript">
+
+
+    </script>
+    <title>trial</title>
+  </head>
+
+  <body>
+
+    <div class="jumbotron">
+      <h1>GAMBLING CASINO</h1>
+    </div>
+
+    <h2 class="pig">PIG DICE</h2>
+
+    <h3>Game play:</h3>
+    <ul>
+      <li>If the player rolls a 1, there total score becomes 0 and it becomes the next player's turn.</li>
+      <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+    </ul>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Player 1:</h3>
+          <button id="button" type="button" name="button">roll!</button>
+          <div class="output">
+            <img id="dice" src="" alt="">
+            <p id="output"></p>
+          </div>
+
+          <div class="player1">
+            <p>total score</p>
+            <p id="player1"></p>
+            <p id="winner"></p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <h3>Player 2:</h3>
+          <button id="button2" type="button" name="button">roll!</button>
+          <div class="output2">
+            <img id="dice2" src="" alt="">
+            <p id="output2"></p>
+          </div>
+
+          <div class="player2">
+            <p>total score</p>
+            <p id="player2"></p>
+            <p id="winner2"></p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-4">
+          <div class="finalScore">
+            <form id="final">
+              <div class="form-group">
+                <input id="finall" type="text" placeholder="FINAL SCORE">
+              </div>
+              <button id="button3" type="button" name="button">Play</button>
+              <button id="newGame">New Game</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </body>
+
+</html>
